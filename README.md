@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Discord Clone
+
+A feature-rich Discord clone built with Next.js 13, TypeScript, Tailwind CSS, ESLint, Clerk for authentication, React Hook Form, ShadCn-ui for UI components, Axios for HTTP requests, Socket.IO for real-time communication, Tanstack React Query for data fetching and caching, UploadThing for file uploads, LiveKit for audio and video calls, and Zustand for state management.
+
+## Overview
+
+This project is a Discord clone with various features such as group chat, one-to-one chat, group audio calls, group video calls, one-to-one video calls, creating servers, creating channels, and many more. It leverages modern technologies to provide a seamless and interactive communication experience.
+
+## Features
+
+- **Next.js 13:** Utilizing the latest version of Next.js for efficient and performant React applications.
+- **TypeScript:** Adding static typing to enhance development productivity and code quality.
+- **Tailwind CSS:** A utility-first CSS framework for building responsive and clean user interfaces.
+- **ESLint:** A linter tool to ensure code consistency and catch potential errors early in development.
+- **Clerk Authentication:** Integration with Clerk for secure user authentication.
+- **React Hook Form:** A library for managing forms in React applications with a focus on simplicity and performance.
+- **ShadCn-ui:** UI components for a consistent and visually appealing design.
+- **Axios:** A promise-based HTTP client for making requests to the server.
+- **Socket.IO:** Real-time bidirectional event-based communication for interactive features.
+- **Tanstack React Query:** A data fetching and caching library for efficient data management.
+- **UploadThing:** Library for handling file uploads.
+- **LiveKit:** Integration for group and one-to-one audio and video calls.
+- **Zustand:** State management for maintaining application state.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (usually comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Install necessary Dependencies
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+3. Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+npm run dev
+```
